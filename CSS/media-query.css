@@ -1,0 +1,666 @@
+
+@media (max-width: 1200px) {
+
+  .container {
+    width: 90%;
+  }
+
+  /* Navbar */
+  .navbar {
+    padding-inline: 16px;
+    gap: 10px;
+  }
+
+  .right ul li a {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+  }
+
+  /* Hero */
+  .h1 {
+    font-size: 56px;
+  }
+
+  .par {
+    font-size: 18px;
+    width: 380px;
+  }
+
+  .card-img {
+    width: 480px;
+    height: 340px;
+  }
+
+  /* Section-2 grid */
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .article-card {
+    width: 100%;
+  }
+
+  .card-excerpt {
+    width: 100%;
+  }
+
+  .sidebar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  .sidebar-card {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .stiky {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  /* Authors */
+  .content-card {
+    gap: 16px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .dash {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Community */
+  .header-left {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .bord {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+
+  /* Navbar */
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    border-radius: 12px;
+    top: 10px;
+    padding: 12px 16px;
+  }
+
+  .right ul {
+    gap: 0;
+  }
+
+  .right ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
+  }
+
+  .btn a {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  /* Hero */
+  .hero {
+    flex-direction: column;
+    padding: 100px 20px 40px;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .left-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .h1 {
+    font-size: 52px;
+  }
+
+  .par {
+    width: 100%;
+    max-width: 560px;
+    font-size: 18px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .card-img {
+    width: 100%;
+    max-width: 500px;
+    height: 320px;
+    transform: rotate(1deg);
+  }
+
+  .right-hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .item-1,
+  .item-2,
+  .item-3 {
+    display: none;
+  }
+
+  /* Section-2 */
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .article-card {
+    width: 100%;
+    grid-template-columns: 160px 1fr;
+  }
+
+  .card-title {
+    padding-left: 0;
+    font-size: 20px;
+  }
+
+  .card-excerpt {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .tag-tesh,
+  .tag-design,
+  .tag-culture {
+    margin-left: 0;
+  }
+
+  .pad {
+    padding-left: 0;
+  }
+
+  .badge {
+    left: 145px;
+  }
+
+  .card-thump {
+    width: 160px;
+    margin: 20px 16px 0 16px;
+  }
+
+  /* Authors */
+  .content-card {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card:last-child {
+    grid-column: span 2;
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+  /* Community */
+  .content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .right-section {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .brand-col {
+    grid-column: span 2;
+  }
+
+  .brand-tagline {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 92%;
+  }
+
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    top: 8px;
+    padding: 12px;
+    width: 92%;
+  }
+
+  .lift {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .ul {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .right ul li a {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 11px;
+  }
+
+  .btn-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn a {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    padding: 8px 20px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 140px 16px 40px;
+  }
+
+  .h1 {
+    font-size: 42px;
+  }
+
+  .par {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .btn-1,
+  .btn-2 {
+    font-size: 16px;
+    padding: 14px 24px 14px 48px;
+  }
+
+  .card-img {
+    max-width: 100%;
+    height: 260px;
+  }
+
+  /* Section-2 */
+  .header {
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 48px;
+  }
+
+  h2.title {
+    font-size: 36px;
+  }
+
+  .fresh-btn a {
+    margin-left: 0;
+  }
+
+  .article-card {
+    grid-template-columns: 1fr;
+  }
+
+  .card-thump {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 0;
+    border: none;
+    border-bottom: 2.5px solid #070412;
+  }
+
+  .badge {
+    top: 12px;
+    left: 12px;
+  }
+
+  .badge-new,
+  .badge-hot,
+  .badge-viral {
+    left: 12px;
+    top: 12px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-title {
+    padding-left: 0;
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  .card-excerpt {
+    padding-left: 0;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .tag-tesh,
+  .tag-design,
+  .tag-culture {
+    margin-left: 0;
+  }
+
+  .pad {
+    padding-left: 0;
+  }
+
+  .card-meta {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Sidebar */
+  .stiky {
+    flex-direction: column;
+  }
+
+  .sidebar-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Authors */
+  .authors-head {
+    font-size: 36px;
+    margin-top: 48px;
+  }
+
+  .content-card {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card:last-child {
+    grid-column: span 1;
+    max-width: 100%;
+  }
+
+  .icon {
+    transform: translate(0);
+    margin-left: 14px;
+    display: inline-block;
+  }
+
+  .icon-1:hover,
+  .icon-2:hover,
+  .icon-3:hover {
+    transform: translate(0);
+  }
+
+  .box-icon,
+  .box-icon2 {
+    display: none;
+  }
+
+  /* Community */
+  .header-left {
+    font-size: 26px;
+    width: 100%;
+  }
+
+  .bord {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .join-btn {
+    font-size: 18px;
+    padding: 18px;
+    display: inline-block;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .brand-col {
+    grid-column: span 1;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .legal-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .container {
+    width: 95%;
+  }
+
+  /* Navbar */
+  .navbar {
+    width: 95%;
+    top: 6px;
+    padding: 10px;
+  }
+
+  .span-1 a,
+  .span-2 a {
+    font-size: 22px;
+  }
+
+  .right ul li a {
+    font-size: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .star-img {
+    display: none;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 160px 12px 32px;
+  }
+
+  .trending-badge {
+    font-size: 12px;
+  }
+
+  .h1 {
+    font-size: 34px;
+    text-shadow: #070412 2px 2px;
+  }
+
+  .par {
+    font-size: 15px;
+    padding: 12px;
+    margin-block: 20px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .btn-1,
+  .btn-2 {
+    font-size: 15px;
+    padding: 12px 20px 12px 48px;
+    margin-right: 0;
+    width: 240px;
+    text-align: center;
+  }
+
+  .card-img {
+    height: 220px;
+  }
+
+  /* Section-2 */
+  h2.title {
+    font-size: 28px;
+  }
+
+  .load-more-btn a {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .sidebar-title {
+    font-size: 22px;
+    padding-bottom: 16px;
+  }
+
+  .trend-num.n1,
+  .trend-num.n2,
+  .trend-num.n3 {
+    font-size: 28px;
+  }
+
+  .vip {
+    font-size: 15px;
+    margin-left: 48px;
+  }
+
+  .trend-meta {
+    margin-left: 48px;
+  }
+
+  /* Authors */
+  .authors-head {
+    font-size: 28px;
+  }
+
+  .card-header {
+    font-size: 24px;
+  }
+
+  .avatar {
+    width: 120px;
+  }
+
+  .vlog {
+    left: auto;
+    right: 16px;
+    top: 16px;
+  }
+
+  /* Community */
+  .header-right {
+    font-size: 22px;
+  }
+
+  .header-card {
+    font-size: 15px;
+  }
+
+  .join-btn {
+    font-size: 16px;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .reb1 {
+    font-size: 15px;
+  }
+
+  .btm1 { top: 17px; }
+  .btm2 { top: 91px; }
+  .btm3 { top: 166px; }
+  .btm4 { top: 241px; }
+
+  /* Footer */
+  .brand-name {
+    font-size: 26px;
+  }
+
+  .brand-tagline {
+    font-size: 15px;
+  }
+
+  .col-title {
+    font-size: 20px;
+  }
+
+  .cat-list li a {
+    font-size: 15px;
+  }
+
+  .newsletter-desc {
+    font-size: 15px;
+  }
+
+  .email-input {
+    font-size: 14px;
+  }
+
+  .email-input::placeholder {
+    font-size: 14px;
+  }
+
+  .copyright {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .legal-links a {
+    font-size: 13px;
+  }
+}
